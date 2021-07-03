@@ -11,35 +11,37 @@
 <body>
   <main class="calc_screen">
     <div class="container">
-      <div class="output_screen">0</div>
+      <div class="output_screen"></div>
       
       <div class="input_screen">
         <ul class="number_buttons">
-          <li class="number__button">7</li>
-          <li class="number__button">8</li>
-          <li class="number__button">9</li>
-          <li class="number__button">4</li>
-          <li class="number__button">5</li>
-          <li class="number__button">6</li>
-          <li class="number__button">1</li>
-          <li class="number__button">2</li>
-          <li class="number__button">3</li>
-          <li class="number__button">0</li>
-          <li class="number__button">00</li>
-          <li class="number__button">.</li>
+          <li class="number__button" data-value="7">7</li>
+          <li class="number__button" data-value="8">8</li>
+          <li class="number__button" data-value="9">9</li>
+          <li class="number__button" data-value="4">4</li>
+          <li class="number__button" data-value="5">5</li>
+          <li class="number__button" data-value="6">6</li>
+          <li class="number__button" data-value="1">1</li>
+          <li class="number__button" data-value="2">2</li>
+          <li class="number__button" data-value="3">3</li>
+          <li class="number__button" data-value="0">0</li>
+          <li class="number__button" data-value="00">00</li>
+          <li class="number__button" data-value=".">.</li>
         </ul>
         <ul class="result_buttons">
-          <li class="result__button">:</li>
-          <li class="result__button">С</li>
-          <li class="result__button">x</li>
-          <li class="result__button"><-</li>
-          <li class="result__button">+</li>
-          <li class="result__button">-</li>
-          <li class="result__button">=</li>
+          <li class="result__button func-button devide" data-value=":">:</li>
+          <li class="result__button clear-screen">С</li>
+          <li class="result__button func-button multiply" data-value="*">x</li>
+          <li class="result__button backspace"><=</li>
+          <li class="result__button func-button plus" data-value="+">+</li>
+          <li class="result__button func-button minus" data-value="-">-</li>
+          <li class="result__button submit">=</li>
         </ul>
       </div>
     </div>
   </main>
   
+<script src="./script.js"></script>
+
 </body>
 </html>
