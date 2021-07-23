@@ -43,6 +43,7 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
   height: 10vh;
+  overflow: hidden;
 }
 
 .input_screen {
